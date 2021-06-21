@@ -1,8 +1,7 @@
-package student_system;
+package day_one.student_system;
 
 import java.io.*;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 public class Try {
     int choices;

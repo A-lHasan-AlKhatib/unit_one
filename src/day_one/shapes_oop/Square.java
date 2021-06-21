@@ -1,4 +1,4 @@
-package shapes_oop;
+package day_one.shapes_oop;
 
 public class Square extends Shape {
     private final double length;

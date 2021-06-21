@@ -1,4 +1,4 @@
-package student_system;
+package day_one.student_system;
 
 import java.io.Serializable;
 

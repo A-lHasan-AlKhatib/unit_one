@@ -1,4 +1,4 @@
-package shapes_oop;
+package day_one.shapes_oop;
 
 public class Circle extends Shape {
     final double radius;
