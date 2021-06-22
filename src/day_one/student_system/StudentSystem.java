@@ -120,6 +120,12 @@ public class StudentSystem {
         return entry == null && id >= 0 && id <= 9999;
     }
 
+//    private String getString(String chars, int size, int status){
+//        boolean ok = true;
+//        System.out.println(chars);
+//
+//    }
+
     private Student getRecord() {
         Student temp = new Student();
 
