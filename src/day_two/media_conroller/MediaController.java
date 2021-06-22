@@ -1,6 +1,8 @@
 package day_two.media_conroller;
 
 import day_two.Model.Media;
+import day_two.Model.Movie;
+import day_two.Model.enums.MediaType;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -81,6 +83,12 @@ public class MediaController {
 
     public void addToFavorites(int mediaId) {
         mediaList.get(mediaId).setFavorite(true);
+    }
+
+    public void watchMedia(int mediaId) {
+        Media m = mediaList.get(mediaId);
+        if (m.getType().equals(MediaType.Movie))
+            ((Movie) m).setWatched(true);
     }
 
 }

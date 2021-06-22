@@ -16,11 +16,11 @@ public abstract class Media implements Serializable {
         Media.idCounter = idCounter;
     }
 
-    private int id;
+    private final int id;
     private String title, releaseDate, language, poster;
     private double duration, rating, IMDBRating;
-    private ArrayList<Category> categories;
-    private ArrayList<Member> staff;
+    private final ArrayList<Category> categories;
+    private final ArrayList<Member> staff;
     private MediaType type;
     private boolean isFavorite;
 

@@ -11,13 +11,13 @@ import day_two.media_conroller.MediaController;
 public class Try {
 
     public static void main(String[] args) {
-//        Media m = new Movie.MovieBuilder().build();
-//        MediaController c = MediaController.getInstance();
-//        c.writeMedia(m);
-        Movie mo = new Movie.MovieBuilder().setWatched(true).addStaff(new Member("Hasan","male","pal","no",new Role[]{Role.Director}))
-                .addCategories(new Category[]{Category.Adventure}).build();
-        System.out.println(mo);
-    }
 
-    //TODO: write dummy media data
+        // create and save movie
+        Media m = new Movie.MovieBuilder().build();
+        MediaController c = MediaController.getInstance();
+        c.writeMedia(m);
+
+
+        }
+
 }
