@@ -42,6 +42,14 @@ public class MediaControllerEditor {
         else return builder.toString();
     }
 
+    public void listMedia() {
+        for (Media m : mediaController.getMediaList()) {
+            System.out.println("**************************");
+            System.out.println(m);
+            System.out.println("**************************");
+        }
+    }
+
     public String addNewMedia(Media media) {
         String validMessage = validateMedia(media);
         if (validMessage.equals(PASS))

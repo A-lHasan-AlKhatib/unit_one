@@ -158,6 +158,7 @@ public abstract class Media implements Serializable {
         protected T tInstance;
         protected M instance;
 
+        //Must initialize the instances in the sub constructor.
 
         public T setTitle(String title) {
             instance.setTitle(title);

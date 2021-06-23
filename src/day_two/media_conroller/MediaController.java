@@ -73,14 +73,6 @@ public class MediaController {
         }
     }
 
-    public void listMedia() {
-        for (Media m : mediaList) {
-            System.out.println("**************************");
-            System.out.println(m);
-            System.out.println("**************************");
-        }
-    }
-
     public void addToFavorites(int mediaId) {
         mediaList.get(mediaId).setFavorite(true);
     }
