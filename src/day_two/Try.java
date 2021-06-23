@@ -13,7 +13,8 @@ public class Try {
     public static void main(String[] args) {
 
         // create and save movie
-        Media m = new Movie.MovieBuilder().build();
+        Media m = new Movie.MovieBuilder().setLanguage("EN").setWatched(false).setWatchTime(120)
+                .addCategories(new Category[]{Category.Action}).setIMDBRating(7.5).build();
         MediaController c = MediaController.getInstance();
         c.writeMedia(m);
 
