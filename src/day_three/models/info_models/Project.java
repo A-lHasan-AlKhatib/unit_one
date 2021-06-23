@@ -6,14 +6,21 @@ import day_three.models.people.Employee;
 
 import java.util.ArrayList;
 
-public class Project {
+public class Project implements Cloneable {
+    private static int idCounter = 0;
+    private final int id;
     private String title;
     private int duration;
     private DurationType durationType;
     private Client client;
     private final ArrayList<Employee> employees;
 
+    public int getId() {
+        return id;
+    }
+
     public Project(String title, int duration, DurationType durationType, Client client, ArrayList<Employee> employees) {
+        id = idCounter++;
         this.title = title;
         this.duration = duration;
         this.durationType = durationType;
@@ -61,4 +68,5 @@ public class Project {
     public void addEmployee(Employee employee) {
         this.employees.add(employee);
     }
+
 }
