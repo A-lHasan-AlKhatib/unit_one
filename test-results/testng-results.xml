@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Call the chrome driver and set the base url]]>
+    </line>
+    <line>
+      <![CDATA[check if the popular btn is active]]>
+    </line>
+    <line>
+      <![CDATA[click the best seller btn]]>
+    </line>
+    <line>
+      <![CDATA[check if the best seller btn is active]]>
+    </line>
+    <line>
+      <![CDATA[Close the chrome driver after all the steps are done]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="392" started-at="2021-06-30T19:33:03Z" finished-at="2021-06-30T19:33:04Z">
+    <groups>
+    </groups>
+    <test name="unit_one" duration-ms="392" started-at="2021-06-30T19:33:03Z" finished-at="2021-06-30T19:33:04Z">
+      <class name="qa.test.ChangeViewedListTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:qa.test.ChangeViewedListTest@25618e91]" name="startDriver" is-config="true" duration-ms="9420" started-at="2021-06-30T19:32:54Z" finished-at="2021-06-30T19:33:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Call the chrome driver and set the base url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="isPopularActive()[pri:1, instance:qa.test.ChangeViewedListTest@25618e91]" name="isPopularActive" duration-ms="96" started-at="2021-06-30T19:33:03Z" finished-at="2021-06-30T19:33:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[check if the popular btn is active]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isPopularActive -->
+        <test-method status="PASS" signature="clickBestSeller()[pri:2, instance:qa.test.ChangeViewedListTest@25618e91]" name="clickBestSeller" duration-ms="192" started-at="2021-06-30T19:33:03Z" finished-at="2021-06-30T19:33:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click the best seller btn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickBestSeller -->
+        <test-method status="PASS" signature="isBestSellerActive()[pri:3, instance:qa.test.ChangeViewedListTest@25618e91]" name="isBestSellerActive" duration-ms="64" started-at="2021-06-30T19:33:04Z" finished-at="2021-06-30T19:33:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[check if the best seller btn is active]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isBestSellerActive -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:qa.test.ChangeViewedListTest@25618e91]" name="closeDriver" is-config="true" duration-ms="232" started-at="2021-06-30T19:33:04Z" finished-at="2021-06-30T19:33:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the chrome driver after all the steps are done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- qa.test.ChangeViewedListTest -->
+    </test> <!-- unit_one -->
+  </suite> <!-- Default Suite -->
+</testng-results>
