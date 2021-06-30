@@ -2,10 +2,8 @@ package qa.test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import org.testng.*;
 import qa.model.Driver;
 import qa.model.IndexLocators;
 
